@@ -6,7 +6,7 @@ A production-grade AWS network built from scratch using a hub-and-spoke topology
 
 ## Architecture Overview
 
-![Architecture Diagram](diagram/aws-network-architecture.png)
+![Architecture Diagram](diagram/aws-network-architecture.drawio.png)
 
 The network follows a **hub-and-spoke topology** — a standard enterprise pattern where all inter-VPC traffic flows through a central hub, rather than directly between environments. This centralizes routing policy and makes the network easier to manage and audit as it scales.
 
